@@ -1,0 +1,251 @@
+
+/* Skills */
+
+.contenido-seccion .h2{
+    font-family: var(--tipo-titular);
+    font-style: italic;
+    text-align: center;
+    font-weight: 600;
+    font-size: 5em;
+    line-height: 1em;
+    color: #A67D44;
+}
+
+.skills__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.skills__fila{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 11rem;
+    height: 10rem;
+}
+
+.skills__img {
+    height: 50%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    
+}
+
+.skills__col{
+    max-width: 40rem;
+    margin: 0 0 2rem;
+    font-size: 1.1em;
+    font-family: var(--tipo-titular);
+    text-align: center;
+    color: #EFE9E1; 
+    font-style: italic;
+}
+
+/* Formacion */
+
+.formacion{
+    color: #EFE9E1;
+    padding: 50px 20px;
+}
+
+.formacion .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.formacion .h2{
+    font-family: var(--tipo-titular);
+    text-align: center;
+    font-weight: 600;
+    font-size: 5em;
+    line-height: 1em;
+    color: #EFE9E1;
+}
+
+.formacion .h2{
+    margin: 0 0 2rem; 
+}
+
+.formacion .fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacion .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.formacion .fila .col h3{
+    font-size: 28px;
+    font-family: var(--tipo-titular);
+    text-align: center;
+    margin-bottom: 25px;
+    color: #A67D44;
+    font-style: italic;
+}
+
+.formacion .fila .izquierda{
+    border-right: 2px solid #DDCEC6;
+}
+
+.formacion .fila .derecha{
+    border-left: 2px solid #DDCEC6;
+}
+
+.formacion .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background: linear-gradient(#680108, #3c0000);
+    position: relative;
+}
+
+.formacion .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #EFE9E1;
+}
+
+.formacion .fila .item .casa{
+    color: #DDCEC6;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.formacion.fila .item .fecha{
+    display: block;
+    color: #EFE9E1;
+    margin-bottom: 10px;
+}
+
+.formacion .fila .item p{
+    line-height: 24px;
+}
+
+
+.formacion .fila .izq {
+    border-right: 4px solid #C3A38D ;
+    margin-right: 20px;
+}
+
+.formacion .fila .der{
+    border-left: 4px solid #C3A38D;
+    margin-left: 20px;
+}
+
+.formacion .fila .item .conectori {
+    height: 2px;
+    background-color: #A67D44;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.formacion .fila .item .conectori .circuloi {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #A67D44;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.formacion .fila .item .conectord {
+    height: 2px;
+    background-color: #A67D44;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.formacion .fila .item .conectord .circulod {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #A67D44;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
+/* Redes Sociales */
+.rrss{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.li{
+    margin: 0 1em;
+}
+
+.svg{
+    width: 3em;
+    height: 3em;
+    color: #fff;
+}
+
+.footer{
+    padding: 2em 0;
+    text-align: center;
+    color: #EFE9E1;
+    position: relative;
+    z-index: 2;
+}
+
+#cursor{
+    width: 4em;
+    height: 4em;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    pointer-events: none;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+}
+
+#cursor.mini{
+    transform: scale(0.6);
+
+}
+
+@media screen and (max-width: 700px){
+
+    .skills .fila{
+        display: block;
+    }
+
+    .skills .fecha .col{
+        width: 100%;
+    }
+
+    .formacion .fila{
+        display: block;
+    }
+
+    .formacion .fila .col{
+        width: 90%;
+    }
+
+    .formacion .fila .derecha{
+        margin-left: 20px;
+    }
+}

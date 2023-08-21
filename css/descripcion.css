@@ -1,0 +1,70 @@
+/*Sobre Mi*/
+.about .descripcion{
+    font-family:var(--tipo-titular);
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+    font-size: 5em;
+    line-height: 1em;
+    color: #A67D44;
+}
+
+.about .p{
+    max-width: 70rem;
+    margin: 1rem 0 1rem;
+    font-size: 1.4em;
+    text-align: left;
+    color: #fff;
+}
+
+.contacto_info .h3{
+    color: #fff;
+    font-style: normal;
+}
+
+/* Redes Sociales */
+.rs{
+    width: 100%;
+    list-style: none;
+    margin: 1rem 0 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.li{
+    margin: 0 1em;
+}
+
+.svg-rs{
+    width: 3em;
+    height: 3em;
+    color: #A67D44;
+}
+
+.footer{
+    padding: 2em 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+#cursor{
+    width: 4em;
+    height: 4em;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    pointer-events: none;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+}
+
+#cursor.mini{
+    transform: scale(0.6);
+
+} 

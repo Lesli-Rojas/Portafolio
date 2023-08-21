@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viemport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <title>Leslie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="css/heder.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/inicio.css" rel="stylesheet">
+    <link href="css/descripcion.css" rel="stylesheet">
+    <link href="css/skills.css" rel="stylesheet">
+    <script defer src="https://code.jquery.com/jquery-3.7.0.slim.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+ <div id="cursor"></div>
+    <header>
+        <div class="main__landing">
+            <div class="headerdos" id="headerdos">
+                <nav class="headerdos__centrado">
+                    <a href="index.html" class="headerdos__home__desktop">
+                        <img src="assets/rojo.jpg" alt="LogotipoLeslie" class="inicio">
+                    </a>
+                    <a href="index.html" class="headerdos__home__mobile">
+                        <picture>
+                            <source srcset="assets/rojo.jpg" type="image/png">
+                            <img src="assets/rojo.jpg" alt="LogotipoLeslie" class="inicio" type="image/svg">
+                        </picture>
+                    </a>
+                    <a href="abutme.html" class="headerdos__a"><h3 class="inicio">Sobre mi</h3></a>
+                    <a href="study.html" class="headerdos__a scroll"><h3 class="inicio">Estudios</h3></a>
+                </nav>
+            </div>
+        </div>
+   </header>
+
+     <main>
+            <div class="seccion" id="inicio">
+                <section class="seccion info">
+                   <h2 class="h2">Leslie Dominguez</h2>
+                   <h3 class="h3">Frontend Develper</h3>
+                   <ul class="ul">
+                      <li class="li"><a href="https://github.com/Lesli-Rojas" class="a" title="Github">Visitar mi Github</a></li>
+                      <li class="li"><a href="Leslie Dominguez Rojas CV.jpg" class="a" title="CV">CV</a></li>
+                      <li class="li"><a href="https://www.linkedin.com/in/leslie-dominguez-/" class="a" title="LindeIn">Visitar mi LindeIn</a></li> 
+                   </ul>
+                </section>
+            </div>
+
+            <section class="seccion works" id="works">
+                <h2 class="h2">Proyectos</h2>
+
+                <div class="grid">
+                   <article class="article">
+                      <a class="a" href="https://lesli-rojas.github.io/Encriptador__Texto/" title="Trabajo1">
+                         <figure class="figure">
+                            <img src="assets/proyectos/encriptador.png" alt="Imagen" class="img"  loading="lazy">
+                         </figure>
+                         <h4 class="h4">Encriptador</h4>  
+                      </a>
+                   </article>
+
+                   <article class="article">
+                      <a class="a" href="https://lesli-rojas.github.io/Joyeria/" title="Trabajo1">
+                         <figure class="figure">
+                            <img  src="assets/proyectos/tienda.png" alt="Imagen" class="img" loading="lazy"> 
+                         </figure>
+                         <h4 class="h4">Joyeria</h4>
+                      </a>
+                   </article>
+                </div>
+            </section>
+         </main>
+     <footer class="footer">
+        <span class="span">&#169; - Todo los derechos reservados 🕷️</span>
+     </footer>
+</body>
+</html>
